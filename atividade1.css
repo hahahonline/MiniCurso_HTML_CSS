@@ -1,0 +1,5 @@
+#Crie um estilo CSS que selecione todos os elementos "p" em uma página HTML e defina a cor de fundo como "azul claro" (#ADD8E6):
+
+p {
+  background-color: #ADD8E6;
+}
