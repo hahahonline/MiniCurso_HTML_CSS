@@ -1,0 +1,7 @@
+//Crie um estilo CSS que selecione todos os elementos "ul" que são filhos do elemento com ID "menu" e defina a cor de fundo como "cinza claro" (#D3D3D3) e o espaçamento interno (padding) como 10 pixels:
+
+
+#menu ul {
+  background-color: #D3D3D3;
+  padding: 10px;
+}
