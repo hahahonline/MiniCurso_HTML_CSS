@@ -1,0 +1,47 @@
+/* Utilizando CSS, crie 6 caixas. Crie uma classe pai chamada “.container” na qual vai ajustar as caixas de acordo com o tamanho da tela, mantendo um espaçamento entre as caixas. 
+Em seguida, crie uma classe filho “.box” que recebe a classe pai “.container”. 
+A classe filho deve criar caixas com largura e altura de 100px e manter uma margem de 10px. 
+Por fim, numere em ordem crescente cada uma das caixas, mantendo o texto dentro das caixas alinhado no centro da mesma.  */
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exemplo de Flexbox</title>
+    <style>
+      /* Estilos para o container */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+      }
+      
+      /* Estilos para as caixas */
+      .caixa {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: yellow;
+        color: red;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+   
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="caixa">Caixa 1</div>
+      <div class="caixa">Caixa 2</div>
+      <div class="caixa">Caixa 3</div>
+      <div class="caixa">Caixa 4</div>
+      <div class="caixa">Caixa 5</div>
+      <div class="caixa">Caixa 6</div>
+    </div>
+  </body>
+</html>
