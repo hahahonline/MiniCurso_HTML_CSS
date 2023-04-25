@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <style>
+
+        /* Box Model */
+ div.box {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  /* Posicionamento de Elementos */
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+
+  /* Media Queries */
+  
+  @media (max-width: 763px){
+    body{
+        background-color: yellow;
+    }
+  }
+  
+  @media (min-width: 764px) and (max-width: 2048px){
+    body {
+      background-color: rgb(33, 109, 134);
+    }}
+
+    </style>
+    
+  </head>
+  <body>
+    <h2>Exercício CSS</h2>
+
+    <h3>Box Model</h3>
+    <div class="box">Este é um elemento com Box Model aplicado.</div>
+
+    <h3>Posicionamento de Elementos</h3>
+    <div class="relative">Este é um elemento com posicionamento relativo.</div>
+
+    <h3>Media Queries</h3>
+    <p>Redimensione a janela do navegador para ver o efeito das media queries.</p>
+  </body>
+</html>
