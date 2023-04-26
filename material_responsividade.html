@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Responsivo</title>
+  <style> 
+    
+    /* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #ccc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para telas grandes */
+@media screen and (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "header header" "nav main" "footer footer";
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 767px) {
+  nav {
+    display: block;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+    
+  </style>
+  
+</head>
+<body>
+  <header>
+    <h1>Folclore brasileiro</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Relatos</a></li>
+        <li><a href="#">Outras histórias</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Curupira</h2>
+      <p>Segundo a lenda, o Curupira é o protetor das florestas e de todos os seres que nela habitam. Ele é conhecido por assustar caçadores e madeireiros que tentam destruir a natureza. Para eles, o Curupira é uma espécie de guardião, que os alerta dos perigos e das consequências de suas ações.
+</p>
+<p> Além disso, o Curupira também é visto como um ser brincalhão e astuto, que adora pregar peças nas pessoas. Diz-se que ele é capaz de imitar sons de animais e enganar os viajantes perdidos na floresta. Mas, mesmo com sua personalidade "brincalhona", ele nunca perde de vista a proteção do meio ambiente.</p>
+    </section>
+
+    <section>
+      <h2>Mula sem cabeça</h2>
+      <p>A punição para seus pecados é a transformação em uma mula sem cabeça, um ser assustador que percorre as estradas desertas e as matas escuras durante as noites de lua cheia. Ela é um animal grande, peludo e sem cabeça, com um fogo ardente em seu pescoço, que ilumina o caminho por onde passa.  </p>
+      <p>Diz-se que a Mula sem Cabeça é uma criatura perseguida e temida pelos moradores das cidades e vilas do interior, que acreditam que ela pode amaldiçoá-los ou trazer má sorte. Há relatos de que, quando é vista, a Mula sem Cabeça emite um som agudo e aterrorizante, capaz de fazer tremer as pessoas mais corajosas.  </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Minicurso CEUB 2023</p>
+  </footer>
+</body>
+</html>
