@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animação de Quadrado em CSS</title>
+	<style>
+		.quadrado {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: red;
+			width: 100px;
+			height: 100px;
+			animation: andar 3s ease-in-out infinite;
+		}
+
+		@keyframes andar {
+			0% { transform: translate(-50%, -50%) rotate(0deg); }
+			50% { transform: translate(50%, -50%) rotate(45deg); }
+			100% { transform: translate(-50%, -50%) rotate(90deg); }
+		}
+	</style>
+</head>
+<body>
+	<div class="quadrado"></div>
+</body>
+</html>
