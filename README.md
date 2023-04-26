@@ -1,3 +1,5 @@
 # MiniCurso_HTML_CSS
 
-Repositório com os exercicios resolvidos do mini-curso de HTML/CSS. 
+![.](imagem_2023-04-26_165206094.png)
+
+Repositório com os exercicios resolvidos e material de estudo do mini-curso de HTML/CSS. 
