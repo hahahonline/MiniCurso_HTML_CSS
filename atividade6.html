@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício com Grid</title>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-gap: 10px;
+    }
+
+    .item-1 {
+      background-color: lightgreen;
+      grid-column: 1;
+    }
+
+    .item-2 {
+      background-color: lightblue;
+      grid-column: 2;
+    }
+
+    .item-3 {
+      background-color: yellow;
+      grid-column: 3;
+      grid-row: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="item-1">GRID 1</div>
+    <div class="item-2">GRID 2</div>
+    <div class="item-3">GRID 3</div>
+  </div>
+</body>
+</html>
